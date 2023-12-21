@@ -1,0 +1,21 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
+    "name": "Devcontainer Images",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+				"mads-hartmann.bash-ide-vscode",
+				"yzhang.markdown-all-in-one",
+				"github.vscode-github-actions",
+				"GitHub.copilot",
+				"foxundermoon.shell-format"
+			]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/devcontainers/features/github-cli:1": {},
+        "ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence:0": {}
+    },
+    "postCreateCommand": "npm install -g @devcontainers/cli"
+}
