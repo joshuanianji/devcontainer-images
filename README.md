@@ -1,6 +1,6 @@
-# Devcontainer Templates
+# Dev Container Templates
 
-A collection of my customm Dev Container Templates [Dev Container Templates](https://containers.dev/implementors/templates), following the [Dev Container Template distribution specification](https://containers.dev/implementors/templates-distribution/).
+A collection of my custom [Dev Container Templates](https://containers.dev/implementors/templates), following the [Dev Container Template distribution specification](https://containers.dev/implementors/templates-distribution/).
 
 ## Repo and Template Structure
 
