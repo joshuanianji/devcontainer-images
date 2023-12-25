@@ -1,8 +1,6 @@
-# Dev Container Templates: Self Authoring Guide
+# Devcontainer Templates
 
-> This repo provides a starting point and example for creating your own custom [Dev Container Templates](https://containers.dev/implementors/templates), hosted for free on GitHub Container Registry.  The example in this repository follows the [Dev Container Template distribution specification](https://containers.dev/implementors/templates-distribution/).  
->
-> To provide feedback on the distribution spec, please leave a comment [on spec issue #71](https://github.com/devcontainers/spec/issues/71).
+A collection of my customm Dev Container Templates [Dev Container Templates](https://containers.dev/implementors/templates), following the [Dev Container Template distribution specification](https://containers.dev/implementors/templates-distribution/).
 
 ## Repo and Template Structure
 

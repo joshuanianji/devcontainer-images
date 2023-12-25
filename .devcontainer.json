@@ -1,6 +1,6 @@
 {
     "image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
-    "name": "Devcontainer Images",
+    "name": "Devcontainer Templates",
     "customizations": {
         "vscode": {
             "extensions": [

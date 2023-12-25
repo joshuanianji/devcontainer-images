@@ -1,6 +1,6 @@
 {
-	"name": "Favorite color",
-	"image": "mcr.microsoft.com/devcontainers/base:${templateOption:imageVariant}",
+	"name": "Idris 2",
+	"image": "ghcr.io/joshuanianji/idris-2-docker/devcontainer:${templateOption:idris2Version}",
 
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
 	// "features": {},
@@ -8,10 +8,15 @@
 	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	"postCreateCommand": "echo '${templateOption:favorite}' > /tmp/color.txt"
-
 	// 👇 Configure tool-specific properties.
-	// "customizations": {},
+	"customizations": {
+        "vscode": {
+            "extensions": [
+				"bamboo.idris2-lsp",
+				"editorconfig.editorconfig"
+            ]
+        }
+    }
 
 	// 👇 Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
