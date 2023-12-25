@@ -3,8 +3,8 @@
     "version": "0.0.0",
     "name": "Idris 2",
     "description": "Develop Idris2 Applications",
-    "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/color",
-    "licenseURL": "https://github.com/devcontainers/template-starter/blob/main/LICENSE",
+    "documentationURL": "https://github.com/joshuanianji/devcontainer-templates/tree/main/src/idris2",
+    "licenseURL": "https://github.com/joshuanianji/devcontainer-templates/blob/main/LICENSE",
     "options": {
         "idris2Version": {
             "type": "string",
