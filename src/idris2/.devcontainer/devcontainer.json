@@ -3,7 +3,9 @@
 	"image": "ghcr.io/joshuanianji/idris-2-docker/devcontainer:${templateOption:idris2Version}",
 
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
-	// "features": {},
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {}
+	},
 
 	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -12,8 +14,7 @@
 	"customizations": {
         "vscode": {
             "extensions": [
-				"bamboo.idris2-lsp",
-				"editorconfig.editorconfig"
+				"bamboo.idris2-lsp"
             ]
         }
     }
