@@ -15,7 +15,7 @@
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
         "ghcr.io/devcontainers/features/github-cli:1": {},
-        "ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence:0": {}
+        "ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence:1": {}
     },
     "postCreateCommand": "npm install -g @devcontainers/cli"
 }
