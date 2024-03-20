@@ -1,0 +1,28 @@
+{
+    "id": "javascript-node-edgedb",
+    "version": "0.0.0",
+    "name": "Node.js and EdgeDB",
+    "description": "Develop applications in Node.js and EdgeDB. Includes Node.js, eslint, and yarn in a container linked to an EdgeDB Container",
+    "documentationURL": "https://github.com/joshuanianji/devcontainer-templates/tree/main/src/javascript-node-edgedb",
+    "licenseURL": "https://github.com/joshuanianji/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Node.js version (use -bookworm, -bullseye variants on local arm64/Apple Silicon):",
+            "proposals": [
+                "20-bookworm",
+                "18-bookworm",
+                "20-bullseye",
+                "18-bullseye",
+                "20-buster",
+                "18-buster"
+            ],
+            "default": "20-bullseye"
+        }
+    },
+    "platforms": [
+        "Node.js",
+        "JavaScript",
+        "EdgeDB"
+    ]
+}
