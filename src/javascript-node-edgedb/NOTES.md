@@ -1,6 +1,6 @@
 ## Notes on Usage
 
-This definition contains 2 containers, one for Node.js and one for EdgeDB. You will be connected to the Node.js container, and can use the EdgeDB CLI (installed via the [edgedb-cli feature](https://github.com/joshuanianji/devcontainer-features/tree/main/src/edgedb-cli)) to connect to the EdgeDB container. The password for the edgedb server is `secret`.
+This definition contains 2 containers, one for Node.js and one for EdgeDB. You will be connected to the Node.js container, and can use the EdgeDB CLI in the Node.js container (installed via the [edgedb-cli feature](https://github.com/joshuanianji/devcontainer-features/tree/main/src/edgedb-cli)) to connect to the instance in the EdgeDB container. The password for the edgedb server is `secret`.
 
 ```bash
 edgedb instance link edgedb-docker --trust-tls-cert --host=edgedb --port=5656 --password
@@ -33,4 +33,4 @@ This should print out a URL that you can open in your browser, something like [h
 
 Username: `edgedb`
 
-Password: `secret`
+Password: `secret` (same as `EDGEDB_SERVER_PASSWORD`)
