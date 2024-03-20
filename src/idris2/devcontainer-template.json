@@ -1,6 +1,6 @@
 {
     "id": "idris2",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "name": "Idris 2",
     "description": "Develop Idris2 Applications",
     "documentationURL": "https://github.com/joshuanianji/devcontainer-templates/tree/main/src/idris2",
