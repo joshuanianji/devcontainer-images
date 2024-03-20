@@ -8,12 +8,30 @@ jobs:
     outputs:
       templates: ${{ steps.filter.outputs.changes }}
     steps:
-      - uses: dorny/paths-filter@v2
+      # For pull requests it's not necessary to checkout the code
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - uses: jannekem/run-python-script-action@v1
+        id: generate-changes
+        with:
+          script: |
+            import os
+            for folder in os.listdir('src'):
+                print(f"{folder}:")
+                print(f"  - '**/{folder}/**'")
+                print(f"  - '.github/workflows/test-pr.yaml'")
+
+      - name: Paths Filter
+        uses: dorny/paths-filter@v3
         id: filter
         with:
           filters: |
-            color: ./**/color/**
-            hello: ./**/hello/**
+            ${{ steps.generate-changes.outputs.stdout }}
 
   test:
     needs: [detect-changes]
@@ -23,7 +41,7 @@ jobs:
       matrix:
         templates: ${{ fromJSON(needs.detect-changes.outputs.templates) }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Smoke test for '${{ matrix.templates }}'
         id: smoke_test
