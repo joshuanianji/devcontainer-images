@@ -1,7 +1,7 @@
 {
     "id": "javascript-node-edgedb",
-    "version": "0.0.0",
-    "name": "Node.js and EdgeDB",
+    "version": "0.0.1",
+    "name": "Node.js & EdgeDB",
     "description": "Develop applications in Node.js and EdgeDB, a next-generation graph-relational database. Includes Node.js, eslint, and yarn in a container linked to an EdgeDB Container",
     "documentationURL": "https://github.com/joshuanianji/devcontainer-templates/tree/main/src/javascript-node-edgedb",
     "licenseURL": "https://github.com/joshuanianji/devcontainer-templates/blob/main/LICENSE",
