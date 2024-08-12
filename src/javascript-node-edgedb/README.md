@@ -1,5 +1,5 @@
 
-# Node.js and EdgeDB (javascript-node-edgedb)
+# Node.js & EdgeDB (javascript-node-edgedb)
 
 Develop applications in Node.js and EdgeDB, a next-generation graph-relational database. Includes Node.js, eslint, and yarn in a container linked to an EdgeDB Container
 
