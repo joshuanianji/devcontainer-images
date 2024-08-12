@@ -1,13 +1,13 @@
 
-# Node.js and EdgeDB (javascript-node-edgedb)
+# Node.js & EdgeDB (javascript-node-edgedb)
 
-Develop applications in Node.js and EdgeDB, a next-generation graph-relational database. Includes Node.js, eslint, and yarn in a container linked to an EdgeDB Container
+Develop applications with Rust and EdgeDB, a next-generation graph-relational database. Includes a Rust application container linked to an EdgeDB Container
 
 ## Options
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Node.js version (use -bookworm, -bullseye variants on local arm64/Apple Silicon): | string | 20-bullseye |
+| imageVariant | Debian OS version (use bookworm, or bullseye on local arm64/Apple Silicon): | string | bullseye |
 
 ## Notes on Usage
 
@@ -49,4 +49,4 @@ Password: `secret` (same as `EDGEDB_SERVER_PASSWORD`)
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/joshuanianji/devcontainer-templates/blob/main/src/javascript-node-edgedb/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/joshuanianji/devcontainer-templates/blob/main/src/rust-edgedb/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
