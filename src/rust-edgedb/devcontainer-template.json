@@ -1,7 +1,7 @@
 {
-    "id": "javascript-node-edgedb",
-    "version": "0.0.1",
-    "name": "Node.js & EdgeDB",
+    "id": "rust-edgedb",
+    "version": "0.0.0",
+    "name": "Rust & EdgeDB",
     "description": "Develop applications with Rust and EdgeDB, a next-generation graph-relational database. Includes a Rust application container linked to an EdgeDB Container",
     "documentationURL": "https://github.com/joshuanianji/devcontainer-templates/tree/main/src/rust-edgedb",
     "licenseURL": "https://github.com/joshuanianji/devcontainer-templates/blob/main/LICENSE",
