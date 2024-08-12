@@ -1,6 +1,17 @@
+
+# Node.js and EdgeDB (javascript-node-edgedb)
+
+Develop applications in Node.js and EdgeDB, a next-generation graph-relational database. Includes Node.js, eslint, and yarn in a container linked to an EdgeDB Container
+
+## Options
+
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+| imageVariant | Node.js version (use -bookworm, -bullseye variants on local arm64/Apple Silicon): | string | 20-bullseye |
+
 ## Notes on Usage
 
-This definition contains 2 containers, one for Rust and one for EdgeDB. You will be connected to the Rust container, and can use the EdgeDB CLI in the Rust container (installed via the [edgedb-cli feature](https://github.com/joshuanianji/devcontainer-features/tree/main/src/edgedb-cli)) to connect to the instance in the EdgeDB container. The password for the edgedb server is `secret`.
+This definition contains 2 containers, one for Node.js and one for EdgeDB. You will be connected to the Node.js container, and can use the EdgeDB CLI in the Node.js container (installed via the [edgedb-cli feature](https://github.com/joshuanianji/devcontainer-features/tree/main/src/edgedb-cli)) to connect to the instance in the EdgeDB container. The password for the edgedb server is `secret`.
 
 ```bash
 edgedb instance link edgedb-docker --trust-tls-cert --host=edgedb --port=5656 --password
@@ -34,3 +45,8 @@ This should print out a URL that you can open in your browser, something like [h
 Username: `edgedb`
 
 Password: `secret` (same as `EDGEDB_SERVER_PASSWORD`)
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/joshuanianji/devcontainer-templates/blob/main/src/javascript-node-edgedb/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
