@@ -10,3 +10,4 @@ A collection of my custom [Dev Container Templates](https://containers.dev/imple
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [idris2](./src/idris2/)                                 | Develop Idris2 Applications                                                                                                                                              |
 | [javascript-node-edgedb](./src/javascript-node-edgedb/) | Develop applications in Node.js and EdgeDB, a next-generation graph-relational database. Includes Node.js, eslint, and yarn in a container linked to an EdgeDB Container |
+| [rust-edgedb](./src/rust-edgedb/) | Develop applications with Rust and EdgeDB, a next-generation graph-relational database. Includes a Rust application container linked to an EdgeDB Container |
