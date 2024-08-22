@@ -8,7 +8,7 @@ edgedb instance link edgedb-docker --trust-tls-cert --host=edgedb --port=5656 --
 # Select the defaults when prompted, and type in the password `secret` when prompted
 ```
 
-You should now be have the `edgedb-docker` instance connected. You can list the instances with the following command:
+You should now be connected to the `edgedb-docker` instance. You can list the instances with the following command:
 
 ```bash
 edgedb instance list
