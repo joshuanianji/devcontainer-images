@@ -1,6 +1,6 @@
 {
     "id": "rust-edgedb",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "name": "Rust & EdgeDB",
     "description": "Develop applications with Rust and EdgeDB, a next-generation graph-relational database. Includes a Rust application container linked to an EdgeDB Container",
     "documentationURL": "https://github.com/joshuanianji/devcontainer-templates/tree/main/src/rust-edgedb",
@@ -10,7 +10,7 @@
             "type": "string",
             "description": "Debian OS version (use bookworm, or bullseye on local arm64/Apple Silicon):",
             "proposals": [
-				"bookworm",
+                "bookworm",
                 "bullseye"
             ],
             "default": "bullseye"
