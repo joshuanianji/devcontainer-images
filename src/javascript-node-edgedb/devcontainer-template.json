@@ -1,6 +1,6 @@
 {
     "id": "javascript-node-edgedb",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "name": "Node.js & EdgeDB",
     "description": "Develop applications in Node.js and EdgeDB, a next-generation graph-relational database. Includes Node.js, eslint, and yarn in a container linked to an EdgeDB Container",
     "documentationURL": "https://github.com/joshuanianji/devcontainer-templates/tree/main/src/javascript-node-edgedb",
@@ -10,14 +10,12 @@
             "type": "string",
             "description": "Node.js version (use -bookworm, -bullseye variants on local arm64/Apple Silicon):",
             "proposals": [
+                "22-bookworm",
+                "22-bullseye",
                 "20-bookworm",
-                "18-bookworm",
-                "20-bullseye",
-                "18-bullseye",
-                "20-buster",
-                "18-buster"
+                "20-bullseye"
             ],
-            "default": "20-bullseye"
+            "default": "22-bookworm"
         }
     },
     "platforms": [
