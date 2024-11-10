@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   # Add "forwardPorts": ["5656"] to **devcontainer.json** to forward EdgeDB locally.
   # (Adding the "ports" property to this file will not forward from a Codespace.)
