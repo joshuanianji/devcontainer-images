@@ -6,7 +6,7 @@ services:
     restart: unless-stopped
     volumes:
       - edgedb-data:/var/lib/edgedb/data
-      - ./dbschema:/dbschema
+      - ../dbschema:/dbschema
     environment:
       - EDGEDB_SERVER_ADMIN_UI=enabled
       - EDGEDB_SERVER_SECURITY=insecure_dev_mode
