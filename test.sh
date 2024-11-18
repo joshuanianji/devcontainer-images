@@ -1,6 +1,9 @@
 #!/bin/bash
 TEMPLATE_ID="$1"
 
+# Run tests for a specific template
+# Also ensure that containers ånd volumes are cleaned up afterward
+
 ./.github/actions/smoke-test/build.sh $TEMPLATE_ID
 ./.github/actions/smoke-test/test.sh $TEMPLATE_ID
 
