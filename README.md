@@ -19,3 +19,4 @@ To test a template locally, you can use `./test.sh`
 ```bash
 ./test.sh javascript-node-edgedb
 ```
+s
