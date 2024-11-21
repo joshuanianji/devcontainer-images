@@ -28,7 +28,6 @@ services:
     # (Adding the "ports" property to this file will not forward from a Codespace.)
     environment:
       # this is purely for user reference, it's not used by the app
-      - EDGEDB_PORT=5656
       - EDGEDB_CLIENT_SECURITY=insecure_dev_mode
       # Use the same password as the database container.
       - *pwd
